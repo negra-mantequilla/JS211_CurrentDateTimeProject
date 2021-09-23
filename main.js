@@ -15,11 +15,20 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
-
+function convertStringNum (num) {
+  return parseInt(num)
+}
 
 
 // Write a JavaScript program to convert a string to the number.
 
+function convertNumToString() {
+  var num = 15;
+  var n = num.toString();
+  document.getElementById("NumToString").value = n;
+  return n 
+  console.log(n)
+}
 
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
@@ -30,9 +39,56 @@ const displayDate = () => {
   // * NaN
   // * String
   
+const dataTypes = [0, "Peter", true, null, undefined,]
+
+function thisIsDataType() {
+var stringDataType = typeof(document.getElementById("stringDataType").value)
+document.getElementById("stringDataType").innerHTML
+// console.log(stringDataType)
+// var numberDataType = typeof(parseInt(document.getElementById("numberDataType").value))
+// console.log(numberDataType)
+
+if (stringDataType) {
+  return thisIsDataType()
+  
+} else {
+  
+}
+
+// var booleanDataType = typeof(document.getElementById("booleanDataType").value)
+// console.log(booleanDataType)
+}
+
+
+  // if(typeof(item) == "string"){
+  //   console.log('thisIsAString:' + item)
+  // } else if (typeof (item) == 'number'){
+  //   console.log('thisIsANumber:'+ item)
+  // }else if (typeof (item) == 'boolean'){
+  //   console.log('thisIsBoolean:' + item)
+  // }else if (typeof (item) == 'NaN'){
+  //   console.log('thisIsNull:' + item)
+  // }else if (typeof (item) == 'null'){
+  //   console.log('null:' + item)
+  // }else if (typeof (item) === "undefined"){
+  //   console.log('thisIsUndefined:' + item)
+  // }else{
+  //   console.log('whats not working:' + item)
+  //   }
+  //   document.getElementById("thisIsDataType").innerHTML = thisIsDataType()
+
+
+
 
   
 // Write a JavaScript program that adds 2 numbers together.
+function addTwoNumbers () {
+let num1 = parseInt(document.getElementById("num1").value)
+let num2 = parseInt(document.getElementById("num2").value)
+document.getElementById("addTwoNumbers").innerHTML = num1 + num2
+
+} 
+
 
 
 
@@ -64,4 +120,5 @@ const displayDate = () => {
 // Additional Resources
 // Video1: https://player.vimeo.com/video/377147232
 // Video2: https://www.youtube.com/embed/bkvH28PXLWc
-// Video3: https://www.youtube.com/embed/TrGI9Yki-24
+// Video3: https://www.youtube.com/embed/TrGI9Y}
+

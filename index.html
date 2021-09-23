@@ -8,8 +8,38 @@
   <body>
     <h1>Hello World!</h1>
     <hr/>
-    <div id="display-element"></div>
+
+    <div id="display-element">
     <button onclick="displayDate()">Click Me</button>
+    <p id="display-element"></p>
+    </div>
+
+    <div id="NumberToString">
+    <button onclick="convertNumToString()">convertNumToString</button>
+    <input type="text" id="NumToString">
+
+    </div>
+
+    <div class="addNum">
+        <button onclick="addTwoNumbers()">Add Number</button>
+        <input type="number" id="num1">
+       <input type="number" id="num2">
+       <p id="addTwoNumbers"></p>
+    </div>
+
+<div class="dataTypeA">
+ 
+    <select  onchange="thisIsDataType()" id="thisIsDataType">
+      <option id="stringDataType" value="Peter">"Peter"</option>
+      <option id="numberDataType" value= "3">3</option>
+      <option id="booleanDataType" value= true>true</option>
+      <option value="nullDataType">null</option>
+      <option value="undefinedDataType">undefined</option>
+      </select>
+    <p id="thisIsDataType"></p>
+  
+</div>
+
     <hr/>
   </body>
 </html>
